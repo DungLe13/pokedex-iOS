@@ -31,7 +31,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0a-Qr-hlL">
-                                        <rect key="frame" x="92.5" y="27" width="134" height="30"/>
+                                        <rect key="frame" x="93" y="27" width="134" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="KEE-bo-ap2"/>
                                             <constraint firstAttribute="width" constant="134" id="ZHX-bs-o1K"/>
@@ -218,7 +218,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zr2-og-PXJ">
                                                 <rect key="frame" x="0.0" y="38" width="288" height="120"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="HAo-R7-65c">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blank" translatesAutoresizingMaskIntoConstraints="NO" id="HAo-R7-65c">
                                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="120" id="E4S-hU-XwY"/>
@@ -402,10 +402,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9ZE-au-tiP">
                                 <rect key="frame" x="25" y="440" width="270" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="NZV-6c-WAB">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blank" translatesAutoresizingMaskIntoConstraints="NO" id="NZV-6c-WAB">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="wEF-YZ-c71">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blank" translatesAutoresizingMaskIntoConstraints="NO" id="wEF-YZ-c71">
                                         <rect key="frame" x="150" y="0.0" width="120" height="120"/>
                                     </imageView>
                                 </subviews>
@@ -446,11 +446,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2" width="120" height="120"/>
-        <image name="3" width="120" height="120"/>
         <image name="700" width="120" height="120"/>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="blank" width="120" height="120"/>
         <image name="music.png" width="100" height="100"/>
     </resources>
 </document>
